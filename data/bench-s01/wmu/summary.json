@@ -1,0 +1,960 @@
+[
+ {
+  "board": "A",
+  "file": "wmu-20261022T113915Z.ogg",
+  "wmu_time": [
+   "records 221497, samples 56703232, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T07:24:41.894624786Z, last 2026-10-27T07:41:38.196209737Z",
+   "period 27196.020..31744.000 ns (mean 31742.665)",
+   "frame-to-frame continuity: residual -68.7..+4547.0 ns over 125062 joins",
+   "uncertainty (k = 2): 87..161 ns; unknown in 103915 records",
+   "flags: confirmed 124206, fitted 221497, gap 3, time_known 125066, invalid 0, holdover 6106",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221497,
+  "gps_records_pct": 53.32,
+  "holdover_records": 6106,
+  "gap_records": 3,
+  "invalid_records": 0,
+  "no_time_records": 96431,
+  "syncing_records": 97291,
+  "system_records": 0,
+  "first_utc": "07:24:41",
+  "last_utc": "07:41:38",
+  "samples_decoded": 56703232,
+  "samples_in_track": 56703232,
+  "m1": {
+   "error": "no PPS edge found in the record"
+  }
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T075013Z.ogg",
+  "wmu_time": [
+   "records 221127, samples 56608512, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T07:50:13.493405403Z, last 2026-10-27T08:20:13.416245582Z",
+   "period 31742.063..31746.196 ns (mean 31742.666)",
+   "frame-to-frame continuity: residual -103.7..+151.3 ns over 220776 joins",
+   "uncertainty (k = 2): 80..5569 ns; unknown in 2440 records",
+   "flags: confirmed 219919, fitted 221062, gap 2, time_known 220779, invalid 0, holdover 2608",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221127,
+  "gps_records_pct": 98.27,
+  "holdover_records": 2608,
+  "gap_records": 2,
+  "invalid_records": 0,
+  "no_time_records": 348,
+  "syncing_records": 1207,
+  "system_records": 0,
+  "first_utc": "07:50:13",
+  "last_utc": "08:20:13",
+  "samples_decoded": 56608512,
+  "samples_in_track": 56608512,
+  "m1": {
+   "edges": 1737,
+   "delay_offset_ns": 11864.56780896784,
+   "delay_offset_u_ns": 8.089733596135048,
+   "rc_us": 32.791805962715955,
+   "centroid_ns": 44776.491056168255,
+   "residual_rms_of_step": 0.0006467986663451238,
+   "step_adc_units": 86389176.88888888,
+   "step_mV": 337.4577222222222
+  },
+  "per_second_gps": {
+   "n": 1736,
+   "median_ns": 11857.747336872253,
+   "rms_about_median_ns": 62.782901980358844
+  },
+  "seconds_without_edge": 31
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T082028Z.ogg",
+  "wmu_time": [
+   "records 221124, samples 56607744, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T08:20:28.314765805Z, last 2026-10-27T08:50:28.225636870Z",
+   "period 31742.263..31745.024 ns (mean 31742.676)",
+   "frame-to-frame continuity: residual -66.7..+67.3 ns over 220190 joins",
+   "uncertainty (k = 2): 85..10320 ns; unknown in 3026 records",
+   "flags: confirmed 219330, fitted 221059, gap 2, time_known 220193, invalid 0, holdover 4082",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221124,
+  "gps_records_pct": 97.34,
+  "holdover_records": 4082,
+  "gap_records": 2,
+  "invalid_records": 0,
+  "no_time_records": 931,
+  "syncing_records": 1793,
+  "system_records": 0,
+  "first_utc": "08:20:28",
+  "last_utc": "08:50:28",
+  "samples_decoded": 56607744,
+  "samples_in_track": 56607744,
+  "m1": {
+   "edges": 1746,
+   "delay_offset_ns": 11897.234568906413,
+   "delay_offset_u_ns": 1.7944766267600132,
+   "rc_us": 32.75148505569341,
+   "centroid_ns": 44788.60229112884,
+   "residual_rms_of_step": 0.00036698935294504826,
+   "step_adc_units": 86328884.33048433,
+   "step_mV": 337.2222044159544
+  },
+  "per_second_gps": {
+   "n": 1746,
+   "median_ns": 11895.838918137093,
+   "rms_about_median_ns": 27.43743094428305
+  },
+  "seconds_without_edge": 11
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T085042Z.ogg",
+  "wmu_time": [
+   "records 6574, samples 1682944, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T08:50:42.332123757Z, last 2026-10-27T08:51:47.850444117Z",
+   "period 31742.227..31743.271 ns (mean 31742.699)",
+   "frame-to-frame continuity: residual -0.8..+0.8 ns over 5569 joins",
+   "uncertainty (k = 2): 100..8938 ns; unknown in 2250 records",
+   "flags: confirmed 4324, fitted 6305, gap 3, time_known 5572, invalid 2, holdover 2154",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 6574,
+  "gps_records_pct": 33.02,
+  "holdover_records": 2154,
+  "gap_records": 3,
+  "invalid_records": 2,
+  "no_time_records": 1002,
+  "syncing_records": 2249,
+  "system_records": 0,
+  "first_utc": "08:50:42",
+  "last_utc": "08:51:47",
+  "samples_decoded": 1682944,
+  "samples_in_track": 1682944,
+  "m1": {
+   "edges": 15,
+   "delay_offset_ns": 11932.123271834922,
+   "delay_offset_u_ns": 26.16942828736044,
+   "rc_us": 32.75760871962946,
+   "centroid_ns": 44897.86833338576,
+   "residual_rms_of_step": 0.0009420846992902254,
+   "step_adc_units": 86339467.37777777,
+   "step_mV": 337.2635444444444
+  },
+  "per_second_gps": {
+   "n": 15,
+   "median_ns": 11921.256431230142,
+   "rms_about_median_ns": 75.94409623436744
+  },
+  "seconds_without_edge": 2
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T085307Z.ogg",
+  "wmu_time": [
+   "records 221498, samples 56703488, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T08:52:40.875108641Z, last 2026-10-27T09:22:40.797411574Z",
+   "period 31741.839..31746.859 ns (mean 31742.709)",
+   "frame-to-frame continuity: residual -246.7..+61.3 ns over 221497 joins",
+   "uncertainty (k = 2): 76..15223 ns; unknown in 1357 records",
+   "flags: confirmed 221374, fitted 221498, gap 0, time_known 221498, invalid 0, holdover 10094",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221498,
+  "gps_records_pct": 95.39,
+  "holdover_records": 10094,
+  "gap_records": 0,
+  "invalid_records": 0,
+  "no_time_records": 0,
+  "syncing_records": 124,
+  "system_records": 0,
+  "first_utc": "08:52:40",
+  "last_utc": "09:22:40",
+  "samples_decoded": 56703488,
+  "samples_in_track": 56703488,
+  "m1": {
+   "edges": 1721,
+   "delay_offset_ns": 11893.130041408936,
+   "delay_offset_u_ns": 2.8269779370700636,
+   "rc_us": 32.76867969751597,
+   "centroid_ns": 44790.755749364034,
+   "residual_rms_of_step": 0.00041736467043560085,
+   "step_adc_units": 86292813.81353767,
+   "step_mV": 337.08130395913156
+  },
+  "per_second_gps": {
+   "n": 1720,
+   "median_ns": 11891.998579638774,
+   "rms_about_median_ns": 31.849656368248027
+  },
+  "seconds_without_edge": 13
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T092254Z.ogg",
+  "wmu_time": [
+   "records 137708, samples 35253248, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T09:22:54.321622397Z, last 2026-10-27T09:41:39.383991771Z",
+   "period 31740.867..31743.106 ns (mean 31742.726)",
+   "frame-to-frame continuity: residual -101.7..+71.3 ns over 136995 joins",
+   "uncertainty (k = 2): 75..8577 ns; unknown in 2247 records",
+   "flags: confirmed 136136, fitted 137513, gap 3, time_known 136998, invalid 2, holdover 5033",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 137708,
+  "gps_records_pct": 95.2,
+  "holdover_records": 5033,
+  "gap_records": 3,
+  "invalid_records": 2,
+  "no_time_records": 710,
+  "syncing_records": 1571,
+  "system_records": 0,
+  "first_utc": "09:22:54",
+  "last_utc": "09:41:39",
+  "samples_decoded": 35252992,
+  "samples_in_track": 35253248,
+  "m1": {
+   "edges": 1068,
+   "delay_offset_ns": 11896.82401209357,
+   "delay_offset_u_ns": 3.213021301288154,
+   "rc_us": 32.76970353179215,
+   "centroid_ns": 44802.10843919123,
+   "residual_rms_of_step": 0.00043691738262290677,
+   "step_adc_units": 86265075.16353276,
+   "step_mV": 336.97294985754985
+  },
+  "per_second_gps": {
+   "n": 1067,
+   "median_ns": 11897.902958457042,
+   "rms_about_median_ns": 33.15750353898754
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T094216Z.ogg",
+  "wmu_time": [
+   "records 221498, samples 56703488, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T09:42:19.402653577Z, last 2026-10-27T10:12:19.326845530Z",
+   "period 31742.365..31743.184 ns (mean 31742.743)",
+   "frame-to-frame continuity: residual -59.7..+67.3 ns over 221497 joins",
+   "uncertainty (k = 2): 72..182582 ns; unknown in 1293 records",
+   "flags: confirmed 221438, fitted 221498, gap 0, time_known 221498, invalid 0, holdover 38617",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221498,
+  "gps_records_pct": 82.54,
+  "holdover_records": 38617,
+  "gap_records": 0,
+  "invalid_records": 0,
+  "no_time_records": 0,
+  "syncing_records": 60,
+  "system_records": 0,
+  "first_utc": "09:42:19",
+  "last_utc": "10:12:19",
+  "samples_decoded": 56703488,
+  "samples_in_track": 56703488,
+  "m1": {
+   "edges": 1487,
+   "delay_offset_ns": 11875.0690759897,
+   "delay_offset_u_ns": 8.522727275669496,
+   "rc_us": 32.78424731419298,
+   "centroid_ns": 44729.06332388782,
+   "residual_rms_of_step": 0.0005326674072278829,
+   "step_adc_units": 86252373.33333333,
+   "step_mV": 336.9233333333333
+  },
+  "per_second_gps": {
+   "n": 1486,
+   "median_ns": 11879.382159694189,
+   "rms_about_median_ns": 46.14166294239384
+  },
+  "seconds_without_edge": 293
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T101233Z.ogg",
+  "wmu_time": [
+   "records 221497, samples 56703232, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T10:12:33.195410192Z, last 2026-10-27T10:42:33.111462076Z",
+   "period 31742.086..31743.243 ns (mean 31742.742)",
+   "frame-to-frame continuity: residual -190.7..+44.3 ns over 221496 joins",
+   "uncertainty (k = 2): 76..8634 ns; unknown in 0 records",
+   "flags: confirmed 221497, fitted 221497, gap 0, time_known 221497, invalid 0, holdover 3411",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221497,
+  "gps_records_pct": 98.46,
+  "holdover_records": 3411,
+  "gap_records": 0,
+  "invalid_records": 0,
+  "no_time_records": 0,
+  "syncing_records": 0,
+  "system_records": 0,
+  "first_utc": "10:12:33",
+  "last_utc": "10:42:33",
+  "samples_decoded": 56703232,
+  "samples_in_track": 56703232,
+  "m1": {
+   "edges": 1773,
+   "delay_offset_ns": 11888.04091812839,
+   "delay_offset_u_ns": 4.211965777577529,
+   "rc_us": 32.77798329914651,
+   "centroid_ns": 44760.06144033234,
+   "residual_rms_of_step": 0.0004697039083877494,
+   "step_adc_units": 86248301.98518519,
+   "step_mV": 336.90742962962963
+  },
+  "per_second_gps": {
+   "n": 1772,
+   "median_ns": 11892.734438902204,
+   "rms_about_median_ns": 39.15911855994873
+  },
+  "seconds_without_edge": 6
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T104247Z.ogg",
+  "wmu_time": [
+   "records 217478, samples 55674368, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T10:42:47.378716800Z, last 2026-10-27T11:12:20.467118949Z",
+   "period 31742.333..31743.239 ns (mean 31742.747)",
+   "frame-to-frame continuity: residual -71.7..+75.3 ns over 216428 joins",
+   "uncertainty (k = 2): 76..13020 ns; unknown in 3313 records",
+   "flags: confirmed 215397, fitted 217348, gap 3, time_known 216432, invalid 0, holdover 3129",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 217478,
+  "gps_records_pct": 97.6,
+  "holdover_records": 3129,
+  "gap_records": 3,
+  "invalid_records": 0,
+  "no_time_records": 1046,
+  "syncing_records": 2080,
+  "system_records": 0,
+  "first_utc": "10:42:47",
+  "last_utc": "11:12:20",
+  "samples_decoded": 55674368,
+  "samples_in_track": 55674368,
+  "m1": {
+   "edges": 1725,
+   "delay_offset_ns": 11890.76509706369,
+   "delay_offset_u_ns": 3.088903800329444,
+   "rc_us": 32.78206139393387,
+   "centroid_ns": 44755.96502372738,
+   "residual_rms_of_step": 0.00047926715797590657,
+   "step_adc_units": 86247562.42962964,
+   "step_mV": 336.9045407407408
+  },
+  "per_second_gps": {
+   "n": 1724,
+   "median_ns": 11895.10840954689,
+   "rms_about_median_ns": 40.37294300682803
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T111335Z.ogg",
+  "wmu_time": [
+   "records 221149, samples 56614144, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T11:12:56.326475394Z, last 2026-10-27T11:42:56.242728024Z",
+   "period 31742.369..31743.047 ns (mean 31742.744)",
+   "frame-to-frame continuity: residual -47.7..+55.3 ns over 219555 joins",
+   "uncertainty (k = 2): 69..128 ns; unknown in 5188 records",
+   "flags: confirmed 218425, fitted 221084, gap 2, time_known 219560, invalid 0, holdover 6",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221149,
+  "gps_records_pct": 98.77,
+  "holdover_records": 6,
+  "gap_records": 2,
+  "invalid_records": 0,
+  "no_time_records": 1589,
+  "syncing_records": 2723,
+  "system_records": 0,
+  "first_utc": "11:12:56",
+  "last_utc": "11:42:56",
+  "samples_decoded": 56614144,
+  "samples_in_track": 56614144,
+  "m1": {
+   "edges": 1776,
+   "delay_offset_ns": 11873.832351968653,
+   "delay_offset_u_ns": 3.864359363397251,
+   "rc_us": 32.77851334114775,
+   "centroid_ns": 44710.064770325225,
+   "residual_rms_of_step": 0.0004669722497303968,
+   "step_adc_units": 86222111.76296297,
+   "step_mV": 336.8051240740741
+  },
+  "per_second_gps": {
+   "n": 1775,
+   "median_ns": 11870.068558766547,
+   "rms_about_median_ns": 40.880888751862585
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T114310Z.ogg",
+  "wmu_time": [
+   "records 221055, samples 56590080, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T11:43:10.578547562Z, last 2026-10-27T12:13:10.498521349Z",
+   "period 31742.369..31743.867 ns (mean 31742.745)",
+   "frame-to-frame continuity: residual -49.7..+110.3 ns over 220602 joins",
+   "uncertainty (k = 2): 74..9589 ns; unknown in 2545 records",
+   "flags: confirmed 219743, fitted 220990, gap 2, time_known 220605, invalid 0, holdover 2302",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221055,
+  "gps_records_pct": 98.37,
+  "holdover_records": 2302,
+  "gap_records": 2,
+  "invalid_records": 0,
+  "no_time_records": 450,
+  "syncing_records": 1311,
+  "system_records": 0,
+  "first_utc": "11:43:10",
+  "last_utc": "12:13:10",
+  "samples_decoded": 56590080,
+  "samples_in_track": 56590080,
+  "m1": {
+   "edges": 1768,
+   "delay_offset_ns": 11839.794327153044,
+   "delay_offset_u_ns": 3.1615320195494405,
+   "rc_us": 32.77826950153021,
+   "centroid_ns": 44587.246078729186,
+   "residual_rms_of_step": 0.00046195811348247835,
+   "step_adc_units": 86245204.60398859,
+   "step_mV": 336.89533048433043
+  },
+  "per_second_gps": {
+   "n": 1767,
+   "median_ns": 11836.885356691715,
+   "rms_about_median_ns": 32.44971856498209
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T121326Z.ogg",
+  "wmu_time": [
+   "records 37335, samples 9557760, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T12:13:26.593530458Z, last 2026-10-27T12:18:33.218387900Z",
+   "period 31742.396..31743.133 ns (mean 31742.751)",
+   "frame-to-frame continuity: residual -30.8..+19.3 ns over 36979 joins",
+   "uncertainty (k = 2): 79..101 ns; unknown in 3839 records",
+   "flags: confirmed 35963, fitted 37270, gap 3, time_known 36983, invalid 0, holdover 0",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 37335,
+  "gps_records_pct": 96.33,
+  "holdover_records": 0,
+  "gap_records": 3,
+  "invalid_records": 0,
+  "no_time_records": 352,
+  "syncing_records": 1371,
+  "system_records": 0,
+  "first_utc": "12:13:26",
+  "last_utc": "12:18:33",
+  "samples_decoded": 9557760,
+  "samples_in_track": 9557760,
+  "m1": {
+   "edges": 293,
+   "delay_offset_ns": 11848.371586947778,
+   "delay_offset_u_ns": 2.964569414068327,
+   "rc_us": 32.76921923874355,
+   "centroid_ns": 44602.62807576737,
+   "residual_rms_of_step": 0.00039164260259882494,
+   "step_adc_units": 86224658.96296297,
+   "step_mV": 336.8150740740741
+  },
+  "per_second_gps": {
+   "n": 292,
+   "median_ns": 11847.057554938965,
+   "rms_about_median_ns": 27.935852506060893
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "A",
+  "file": "wmu-20261027T121949Z.ogg",
+  "wmu_time": [
+   "records 221127, samples 56608512, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T12:19:28.965958036Z, last 2026-10-27T12:49:28.904653708Z",
+   "period 31741.580..31743.937 ns (mean 31742.745)",
+   "frame-to-frame continuity: residual -51.7..+65.3 ns over 220721 joins",
+   "uncertainty (k = 2): 72..39041 ns; unknown in 3845 records",
+   "flags: confirmed 219748, fitted 221062, gap 2, time_known 220724, invalid 0, holdover 11759",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221127,
+  "gps_records_pct": 94.06,
+  "holdover_records": 11759,
+  "gap_records": 2,
+  "invalid_records": 0,
+  "no_time_records": 403,
+  "syncing_records": 1378,
+  "system_records": 0,
+  "first_utc": "12:19:28",
+  "last_utc": "12:49:28",
+  "samples_decoded": 56608512,
+  "samples_in_track": 56608512,
+  "m1": {
+   "edges": 1692,
+   "delay_offset_ns": 11849.773693034876,
+   "delay_offset_u_ns": 2.509373733100482,
+   "rc_us": 32.770352498220056,
+   "centroid_ns": 44629.25646315163,
+   "residual_rms_of_step": 0.0003326199600191991,
+   "step_adc_units": 86229878.453129,
+   "step_mV": 336.83546270753516
+  },
+  "per_second_gps": {
+   "n": 1692,
+   "median_ns": 11850.53893094523,
+   "rms_about_median_ns": 25.49218647418015
+  },
+  "seconds_without_edge": 73
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261022T113915Z.ogg",
+  "wmu_time": [
+   "records 221496, samples 56702976, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T07:31:12.904994901Z, last 2026-10-27T07:41:43.519292052Z",
+   "period -3889825.353..31743.306 ns (mean 31688.632)",
+   "frame-to-frame continuity: residual -49.8..+3921568.4 ns over 72347 joins",
+   "uncertainty (k = 2): 85..17898 ns; unknown in 151401 records",
+   "flags: confirmed 71328, fitted 221496, gap 2, time_known 72352, invalid 0, holdover 5395",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221496,
+  "gps_records_pct": 29.77,
+  "holdover_records": 5395,
+  "gap_records": 2,
+  "invalid_records": 0,
+  "no_time_records": 149144,
+  "syncing_records": 150168,
+  "system_records": 0,
+  "first_utc": "07:31:12",
+  "last_utc": "07:41:43",
+  "samples_decoded": 56702976,
+  "samples_in_track": 56702976,
+  "m1": {
+   "error": "no PPS edge found in the record"
+  }
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T075026Z.ogg",
+  "wmu_time": [
+   "records 220703, samples 56499968, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T07:50:26.258291415Z, last 2026-10-27T08:20:26.179204630Z",
+   "period 31741.161..31744.173 ns (mean 31742.836)",
+   "frame-to-frame continuity: residual -69.8..+113.2 ns over 219833 joins",
+   "uncertainty (k = 2): 76..9123 ns; unknown in 5911 records",
+   "flags: confirmed 218118, fitted 220508, gap 4, time_known 219838, invalid 0, holdover 10250",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 220703,
+  "gps_records_pct": 94.18,
+  "holdover_records": 10250,
+  "gap_records": 4,
+  "invalid_records": 0,
+  "no_time_records": 865,
+  "syncing_records": 2583,
+  "system_records": 0,
+  "first_utc": "07:50:26",
+  "last_utc": "08:20:26",
+  "samples_decoded": 56499968,
+  "samples_in_track": 56499968,
+  "m1": {
+   "edges": 874,
+   "delay_offset_ns": 11827.16923412628,
+   "delay_offset_u_ns": 84.6431194455641,
+   "rc_us": 32.87814024032285,
+   "centroid_ns": 44866.15043894408,
+   "residual_rms_of_step": 0.023221184370247557,
+   "step_adc_units": 86681861.68888889,
+   "step_mV": 338.60102222222224
+  },
+  "per_second_gps": {
+   "n": 874,
+   "median_ns": 11758.1202262015,
+   "rms_about_median_ns": 7427.831847201788
+  },
+  "seconds_without_edge": 820
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T082040Z.ogg",
+  "wmu_time": [
+   "records 201470, samples 51576320, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T08:20:40.641529859Z, last 2026-10-27T08:48:03.871356142Z",
+   "period 31741.820..31744.498 ns (mean 31742.844)",
+   "frame-to-frame continuity: residual -89.8..+55.2 ns over 200165 joins",
+   "uncertainty (k = 2): 79..5471 ns; unknown in 6962 records",
+   "flags: confirmed 198446, fitted 201275, gap 4, time_known 200170, invalid 1, holdover 3942",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 201470,
+  "gps_records_pct": 96.54,
+  "holdover_records": 3942,
+  "gap_records": 4,
+  "invalid_records": 1,
+  "no_time_records": 1300,
+  "syncing_records": 3022,
+  "system_records": 0,
+  "first_utc": "08:20:40",
+  "last_utc": "08:48:03",
+  "samples_decoded": 51576320,
+  "samples_in_track": 51576320,
+  "m1": {
+   "edges": 1583,
+   "delay_offset_ns": 11925.363602055162,
+   "delay_offset_u_ns": 2.562592861902489,
+   "rc_us": 32.660048765412625,
+   "centroid_ns": 44717.83163516834,
+   "residual_rms_of_step": 0.00040547257616775786,
+   "step_adc_units": 86659150.69629629,
+   "step_mV": 338.5123074074074
+  },
+  "per_second_gps": {
+   "n": 1582,
+   "median_ns": 11925.442109666012,
+   "rms_about_median_ns": 33.27532592840501
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T084909Z.ogg",
+  "wmu_time": [
+   "records 220728, samples 56506368, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T08:48:43.576631556Z, last 2026-10-27T09:18:43.512846678Z",
+   "period 31742.427..31746.114 ns (mean 31742.866)",
+   "frame-to-frame continuity: residual -79.8..+48.1 ns over 219843 joins",
+   "uncertainty (k = 2): 75..7610 ns; unknown in 4372 records",
+   "flags: confirmed 218821, fitted 220598, gap 3, time_known 219846, invalid 2, holdover 6118",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 220728,
+  "gps_records_pct": 96.36,
+  "holdover_records": 6118,
+  "gap_records": 3,
+  "invalid_records": 2,
+  "no_time_records": 882,
+  "syncing_records": 1906,
+  "system_records": 0,
+  "first_utc": "08:48:43",
+  "last_utc": "09:18:43",
+  "samples_decoded": 56506368,
+  "samples_in_track": 56506368,
+  "m1": {
+   "edges": 1733,
+   "delay_offset_ns": 11878.725071591807,
+   "delay_offset_u_ns": 6.99005415412108,
+   "rc_us": 32.699523274011405,
+   "centroid_ns": 44598.70145751086,
+   "residual_rms_of_step": 0.0006421013781216136,
+   "step_adc_units": 86631588.02962963,
+   "step_mV": 338.4046407407408
+  },
+  "per_second_gps": {
+   "n": 1732,
+   "median_ns": 11886.292259263628,
+   "rms_about_median_ns": 47.0192303042185
+  },
+  "seconds_without_edge": 4
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T091857Z.ogg",
+  "wmu_time": [
+   "records 221497, samples 56703232, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T09:18:57.846692369Z, last 2026-10-27T09:48:57.770890726Z",
+   "period 31742.529..31743.157 ns (mean 31742.886)",
+   "frame-to-frame continuity: residual -82.9..+57.1 ns over 221496 joins",
+   "uncertainty (k = 2): 70..5247 ns; unknown in 0 records",
+   "flags: confirmed 221497, fitted 221497, gap 0, time_known 221497, invalid 0, holdover 2511",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221497,
+  "gps_records_pct": 98.87,
+  "holdover_records": 2511,
+  "gap_records": 0,
+  "invalid_records": 0,
+  "no_time_records": 0,
+  "syncing_records": 0,
+  "system_records": 0,
+  "first_utc": "09:18:57",
+  "last_utc": "09:48:57",
+  "samples_decoded": 56703232,
+  "samples_in_track": 56703232,
+  "m1": {
+   "edges": 1780,
+   "delay_offset_ns": 11851.25421915183,
+   "delay_offset_u_ns": 8.133316819835413,
+   "rc_us": 32.6858973162798,
+   "centroid_ns": 44546.997340418035,
+   "residual_rms_of_step": 0.0005795074799938728,
+   "step_adc_units": 86587383.79487179,
+   "step_mV": 338.23196794871797
+  },
+  "per_second_gps": {
+   "n": 1779,
+   "median_ns": 11843.623217053502,
+   "rms_about_median_ns": 51.23168815810632
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T094912Z.ogg",
+  "wmu_time": [
+   "records 221497, samples 56703232, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T09:49:12.151469779Z, last 2026-10-27T10:19:12.076173127Z",
+   "period 31742.608..31743.141 ns (mean 31742.895)",
+   "frame-to-frame continuity: residual -58.9..+39.1 ns over 221496 joins",
+   "uncertainty (k = 2): 69..84 ns; unknown in 0 records",
+   "flags: confirmed 221497, fitted 221497, gap 0, time_known 221497, invalid 0, holdover 0",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221497,
+  "gps_records_pct": 100.0,
+  "holdover_records": 0,
+  "gap_records": 0,
+  "invalid_records": 0,
+  "no_time_records": 0,
+  "syncing_records": 0,
+  "system_records": 0,
+  "first_utc": "09:49:12",
+  "last_utc": "10:19:12",
+  "samples_decoded": 56703232,
+  "samples_in_track": 56703232,
+  "m1": {
+   "edges": 1800,
+   "delay_offset_ns": 11873.77391816436,
+   "delay_offset_u_ns": 4.642746091485039,
+   "rc_us": 32.66166452911766,
+   "centroid_ns": 44564.120978957726,
+   "residual_rms_of_step": 0.00041298053311232405,
+   "step_adc_units": 86552738.78974359,
+   "step_mV": 338.0966358974359
+  },
+  "per_second_gps": {
+   "n": 1799,
+   "median_ns": 11876.09873421771,
+   "rms_about_median_ns": 34.90091962213836
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T101926Z.ogg",
+  "wmu_time": [
+   "records 221498, samples 56703488, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T10:19:26.471227264Z, last 2026-10-27T10:49:26.404051122Z",
+   "period 31742.341..31743.188 ns (mean 31742.895)",
+   "frame-to-frame continuity: residual -53.9..+37.1 ns over 221497 joins",
+   "uncertainty (k = 2): 70..5543 ns; unknown in 0 records",
+   "flags: confirmed 221498, fitted 221498, gap 0, time_known 221498, invalid 0, holdover 1330",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221498,
+  "gps_records_pct": 99.4,
+  "holdover_records": 1330,
+  "gap_records": 0,
+  "invalid_records": 0,
+  "no_time_records": 0,
+  "syncing_records": 0,
+  "system_records": 0,
+  "first_utc": "10:19:26",
+  "last_utc": "10:49:26",
+  "samples_decoded": 56703488,
+  "samples_in_track": 56703488,
+  "m1": {
+   "edges": 1790,
+   "delay_offset_ns": 11910.088072176322,
+   "delay_offset_u_ns": 9.237738225449577,
+   "rc_us": 32.63264831362218,
+   "centroid_ns": 44617.484945764154,
+   "residual_rms_of_step": 0.00032988715543137855,
+   "step_adc_units": 86553327.88148148,
+   "step_mV": 338.09893703703705
+  },
+  "per_second_gps": {
+   "n": 1789,
+   "median_ns": 11912.813624229755,
+   "rms_about_median_ns": 33.820853192001316
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T104940Z.ogg",
+  "wmu_time": [
+   "records 221122, samples 56607232, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T10:49:40.335152014Z, last 2026-10-27T11:19:40.263935910Z",
+   "period 31742.518..31743.259 ns (mean 31742.895)",
+   "frame-to-frame continuity: residual -59.9..+46.1 ns over 220060 joins",
+   "uncertainty (k = 2): 72..93 ns; unknown in 3277 records",
+   "flags: confirmed 218584, fitted 221057, gap 2, time_known 220064, invalid 0, holdover 0",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221122,
+  "gps_records_pct": 98.85,
+  "holdover_records": 0,
+  "gap_records": 2,
+  "invalid_records": 0,
+  "no_time_records": 1058,
+  "syncing_records": 2537,
+  "system_records": 0,
+  "first_utc": "10:49:40",
+  "last_utc": "11:19:40",
+  "samples_decoded": 56607232,
+  "samples_in_track": 56607232,
+  "m1": {
+   "edges": 1777,
+   "delay_offset_ns": 11923.449394429597,
+   "delay_offset_u_ns": 1.9555418810989595,
+   "rc_us": 32.643297124678014,
+   "centroid_ns": 44662.85112358708,
+   "residual_rms_of_step": 0.00028995060269415926,
+   "step_adc_units": 86544710.16296297,
+   "step_mV": 338.0652740740741
+  },
+  "per_second_gps": {
+   "n": 1776,
+   "median_ns": 11922.690364361899,
+   "rms_about_median_ns": 23.88129724858042
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T111954Z.ogg",
+  "wmu_time": [
+   "records 221126, samples 56608256, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T11:19:54.696573998Z, last 2026-10-27T11:49:54.634556070Z",
+   "period 31742.490..31743.188 ns (mean 31742.896)",
+   "frame-to-frame continuity: residual -45.9..+47.1 ns over 220262 joins",
+   "uncertainty (k = 2): 73..5546 ns; unknown in 3140 records",
+   "flags: confirmed 219094, fitted 221061, gap 2, time_known 220266, invalid 0, holdover 1391",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 221126,
+  "gps_records_pct": 98.45,
+  "holdover_records": 1391,
+  "gap_records": 2,
+  "invalid_records": 0,
+  "no_time_records": 860,
+  "syncing_records": 2031,
+  "system_records": 0,
+  "first_utc": "11:19:54",
+  "last_utc": "11:49:54",
+  "samples_decoded": 56608256,
+  "samples_in_track": 56608256,
+  "m1": {
+   "edges": 1770,
+   "delay_offset_ns": 11930.807044485467,
+   "delay_offset_u_ns": 2.3424018182974073,
+   "rc_us": 32.65464391573549,
+   "centroid_ns": 44720.20360772377,
+   "residual_rms_of_step": 0.00038885473799951225,
+   "step_adc_units": 86534503.82222222,
+   "step_mV": 338.02540555555555
+  },
+  "per_second_gps": {
+   "n": 1769,
+   "median_ns": 11929.978182373923,
+   "rms_about_median_ns": 29.285490984722518
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T115008Z.ogg",
+  "wmu_time": [
+   "records 161663, samples 41385728, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T11:50:09.004978620Z, last 2026-10-27T12:12:06.174167491Z",
+   "period 31742.533..31745.565 ns (mean 31742.897)",
+   "frame-to-frame continuity: residual -59.9..+57.1 ns over 161195 joins",
+   "uncertainty (k = 2): 74..15212 ns; unknown in 2560 records",
+   "flags: confirmed 160336, fitted 161533, gap 2, time_known 161198, invalid 1, holdover 7648",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 161663,
+  "gps_records_pct": 94.45,
+  "holdover_records": 7648,
+  "gap_records": 2,
+  "invalid_records": 1,
+  "no_time_records": 465,
+  "syncing_records": 1326,
+  "system_records": 0,
+  "first_utc": "11:50:09",
+  "last_utc": "12:12:06",
+  "samples_decoded": 41385728,
+  "samples_in_track": 41385728,
+  "m1": {
+   "edges": 1244,
+   "delay_offset_ns": 11920.773091531128,
+   "delay_offset_u_ns": 2.4124526947004754,
+   "rc_us": 32.67323734887431,
+   "centroid_ns": 44713.87578386653,
+   "residual_rms_of_step": 0.0003857366167854133,
+   "step_adc_units": 86553986.005698,
+   "step_mV": 338.1015078347578
+  },
+  "per_second_gps": {
+   "n": 1243,
+   "median_ns": 11921.675885755165,
+   "rms_about_median_ns": 31.452249747517055
+  },
+  "seconds_without_edge": 0
+ },
+ {
+  "board": "B",
+  "file": "wmu-20261027T121250Z.ogg",
+  "wmu_time": [
+   "records 220703, samples 56499968, declared rate 1000000000/31744 S/s",
+   "first sample 2026-10-27T12:12:31.255216916Z, last 2026-10-27T12:42:31.189080511Z",
+   "period 31742.537..31743.255 ns (mean 31742.900)",
+   "frame-to-frame continuity: residual -62.9..+42.1 ns over 219770 joins",
+   "uncertainty (k = 2): 71..5561 ns; unknown in 6428 records",
+   "flags: confirmed 217973, fitted 220573, gap 4, time_known 219775, invalid 0, holdover 1332",
+   "records cover the samples without overlap or hole: yes"
+  ],
+  "records": 220703,
+  "gps_records_pct": 98.16,
+  "holdover_records": 1332,
+  "gap_records": 4,
+  "invalid_records": 0,
+  "no_time_records": 928,
+  "syncing_records": 2728,
+  "system_records": 0,
+  "first_utc": "12:12:31",
+  "last_utc": "12:42:31",
+  "samples_decoded": 56499968,
+  "samples_in_track": 56499968,
+  "m1": {
+   "edges": 1763,
+   "delay_offset_ns": 11881.504996057998,
+   "delay_offset_u_ns": 12.85771363991461,
+   "rc_us": 32.70171028534412,
+   "centroid_ns": 44591.01595684798,
+   "residual_rms_of_step": 0.0007408052349912835,
+   "step_adc_units": 86560298.66666667,
+   "step_mV": 338.1261666666667
+  },
+  "per_second_gps": {
+   "n": 1762,
+   "median_ns": 11895.681690469592,
+   "rms_about_median_ns": 63.262143317560835
+  },
+  "seconds_without_edge": 0
+ }
+]

@@ -1,0 +1,20 @@
+1259776 samples per channel (39.99 s)
+channel 1 (unconnected): RMS 2.113e-04 of full scale (-70.5 dBFS)
+channel 2 (unconnected): RMS 6.070e-05 of full scale (-81.3 dBFS)
+channel 3 (unconnected): RMS 0.000e+00 of full scale (-inf dBFS)
+channel 4 (unconnected): RMS 0.000e+00 of full scale (-inf dBFS)
+channel 5 (unconnected): RMS 0.000e+00 of full scale (-inf dBFS)
+channel 6 (unconnected): RMS 0.000e+00 of full scale (-inf dBFS)
+channel 0 fundamental: -8.0 dBFS (RMS against a full-scale sine)
+segment at   0.0 s: f1 49.9721 Hz, THD 1.59 %, residual (noise + interharmonics) 67.2 dB below the fundamental over 0-15751 Hz; inside 0-1 kHz it equals white noise 57.6 dB below
+  channel 1 floor: 77.4 dB below channel 0's fundamental over the full band; inside 0-1 kHz, white noise 76.0 dB below
+  channel 2 floor: 77.3 dB below channel 0's fundamental over the full band; inside 0-1 kHz, white noise 74.9 dB below
+segment at   8.3 s: f1 49.9724 Hz, THD 1.58 %, residual (noise + interharmonics) 67.5 dB below the fundamental over 0-15751 Hz; inside 0-1 kHz it equals white noise 58.0 dB below
+  channel 1 floor: 77.5 dB below channel 0's fundamental over the full band; inside 0-1 kHz, white noise 76.0 dB below
+  channel 2 floor: 77.3 dB below channel 0's fundamental over the full band; inside 0-1 kHz, white noise 74.9 dB below
+segment at  16.6 s: f1 49.9701 Hz, THD 1.57 %, residual (noise + interharmonics) 67.2 dB below the fundamental over 0-15751 Hz; inside 0-1 kHz it equals white noise 57.7 dB below
+  channel 1 floor: 77.4 dB below channel 0's fundamental over the full band; inside 0-1 kHz, white noise 76.0 dB below
+  channel 2 floor: 77.2 dB below channel 0's fundamental over the full band; inside 0-1 kHz, white noise 75.0 dB below
+segment at  25.0 s: f1 49.9740 Hz, THD 1.59 %, residual (noise + interharmonics) 67.4 dB below the fundamental over 0-15751 Hz; inside 0-1 kHz it equals white noise 57.8 dB below
+  channel 1 floor: 77.5 dB below channel 0's fundamental over the full band; inside 0-1 kHz, white noise 76.0 dB below
+  channel 2 floor: 77.2 dB below channel 0's fundamental over the full band; inside 0-1 kHz, white noise 74.9 dB below

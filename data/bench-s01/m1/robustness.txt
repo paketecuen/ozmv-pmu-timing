@@ -1,0 +1,22 @@
+== analysis/m1_models.py on B's 08:48-09:18 file (1733 edges): one pole, two poles, one pole with a feed-through
+1 pole         offset  11878.7 ns (+/- 1.7 fit) = 47.90 t_MOD;  params 3.27e-05;  residual RMS 6.421e-04
+   binned residual (x1e-4) per 20 us from -120 us: -6.7 -5.6 -4.2 -2.8 -1.9 -0.5 +0.9 +0.2 -0.9 -1.1 -0.3 +0.7 +1.4 +2.1 +2.4 +2.7
+2 poles        offset  11877.7 ns (+/- 1082.7 fit) = 47.89 t_MOD;  params 3.27e-05, 1e-09;  residual RMS 6.421e-04
+   binned residual (x1e-4) per 20 us from -120 us: -6.7 -5.6 -4.2 -2.8 -1.9 -0.5 +0.9 +0.2 -0.9 -1.1 -0.3 +0.7 +1.4 +2.1 +2.4 +2.7
+1 pole + feed  offset  11593.8 ns (+/- 18.9 fit) = 46.75 t_MOD;  params 3.27e-05, -0.00867;  residual RMS 6.418e-04
+   binned residual (x1e-4) per 20 us from -120 us: -6.7 -5.6 -4.2 -2.8 -1.9 -0.6 +0.8 +0.3 -0.8 -1.1 -0.3 +0.6 +1.4 +2.1 +2.4 +2.7
+
+== analysis/m1_windows.py on the same file (run 2026-10-28 on the decoded stream; output kept as printed)
+paper windows  edges 1733: offset 11878.7 +/- 7.0 ns, RC 32.700 us, centroid 44599 ns, residual 6.42e-04
+near the edge  edges 1733: offset 11931.9 +/- 5.2 ns, RC 32.639 us, centroid 44633 ns, residual 5.03e-04
+far levels     edges 1733: offset 11867.0 +/- 4.7 ns, RC 32.731 us, centroid 44643 ns, residual 6.95e-04
+first half     edges 868: offset 11895.6 +/- 6.8 ns, RC 32.694 us
+second half    edges 865: offset 11861.8 +/- 7.0 ns, RC 32.705 us
+
+
+== analysis/s01_grid_vs_labels.py on the same file, its longest GPS stretch (run 2026-10-28; output kept as printed)
+stretch: records 60754..178418, 956 s
+grid period 31742.8706 ns
+grid   edges 956: second difference RMS/sqrt(6) = 32.7 ns (robust 25.6 ns)
+labels edges 956: second difference RMS/sqrt(6) = 37.8 ns (robust 35.2 ns)
+labels minus grid: RMS 10697.7 ns about its mean; second difference RMS/sqrt(6) 14.6 ns

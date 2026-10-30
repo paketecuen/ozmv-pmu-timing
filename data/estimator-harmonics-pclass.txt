@@ -1,0 +1,56 @@
+# Our decimated 2-cycle Taylor-Fourier estimator, one harmonic at a time (IEC/IEEE 60255-118-1 Tables 2-3), synthetic, PB2 stream 1e9/31744 S/s, 2 s per case, at f0
+# P class: 1 % each harmonic, TVE 1 %, FE 0.005 Hz, RFE 0.4 Hz/s. M class: 10 %, TVE 1 %, FE 0.025 Hz (Fs > 20), RFE no requirement.
+## 1 %
+50 Hz, harmonic  2 at 1 %: TVE 7.78e-15  FE 5.68e-14 Hz  RFE 0.000 Hz/s
+50 Hz, harmonic  3 at 1 %: TVE 7.77e-15  FE 5.68e-14 Hz  RFE 0.000 Hz/s
+50 Hz, harmonic  4 at 1 %: TVE 7.39e-05  FE 5.87e-04 Hz  RFE 0.117 Hz/s
+50 Hz, harmonic  5 at 1 %: TVE 2.41e-05  FE 2.39e-04 Hz  RFE 0.039 Hz/s
+50 Hz, harmonic  6 at 1 %: TVE 1.03e-05  FE 1.17e-04 Hz  RFE 0.017 Hz/s
+50 Hz, harmonic  7 at 1 %: TVE 5.17e-06  FE 6.39e-05 Hz  RFE 0.009 Hz/s
+50 Hz, harmonic  8 at 1 %: TVE 2.90e-06  FE 3.75e-05 Hz  RFE 0.005 Hz/s
+50 Hz, harmonic  9 at 1 %: TVE 1.73e-06  FE 2.28e-05 Hz  RFE 0.003 Hz/s
+50 Hz, harmonic 10 at 1 %: TVE 1.08e-06  FE 1.40e-05 Hz  RFE 0.002 Hz/s
+50 Hz, harmonic 11 at 1 %: TVE 6.78e-07  FE 8.44e-06 Hz  RFE 0.001 Hz/s
+50 Hz, harmonic 12 at 1 %: TVE 4.22e-07  FE 4.90e-06 Hz  RFE 0.001 Hz/s
+50 Hz worst: TVE 7.39e-05, FE 5.87e-04 Hz (harmonic 4), RFE 0.117 Hz/s (harmonic 4)
+
+60 Hz, harmonic  2 at 1 %: TVE 3.80e-14  FE 3.62e-13 Hz  RFE 0.000 Hz/s
+60 Hz, harmonic  3 at 1 %: TVE 3.80e-14  FE 3.62e-13 Hz  RFE 0.000 Hz/s
+60 Hz, harmonic  4 at 1 %: TVE 7.43e-05  FE 7.06e-04 Hz  RFE 0.170 Hz/s
+60 Hz, harmonic  5 at 1 %: TVE 2.44e-05  FE 2.88e-04 Hz  RFE 0.057 Hz/s
+60 Hz, harmonic  6 at 1 %: TVE 1.06e-05  FE 1.41e-04 Hz  RFE 0.025 Hz/s
+60 Hz, harmonic  7 at 1 %: TVE 5.45e-06  FE 7.63e-05 Hz  RFE 0.013 Hz/s
+60 Hz, harmonic  8 at 1 %: TVE 3.09e-06  FE 4.32e-05 Hz  RFE 0.008 Hz/s
+60 Hz, harmonic  9 at 1 %: TVE 1.84e-06  FE 2.44e-05 Hz  RFE 0.005 Hz/s
+60 Hz, harmonic 10 at 1 %: TVE 1.09e-06  FE 1.31e-05 Hz  RFE 0.003 Hz/s
+60 Hz, harmonic 11 at 1 %: TVE 6.09e-07  FE 6.48e-06 Hz  RFE 0.002 Hz/s
+60 Hz, harmonic 12 at 1 %: TVE 3.04e-07  FE 2.81e-06 Hz  RFE 0.001 Hz/s
+60 Hz worst: TVE 7.43e-05, FE 7.06e-04 Hz (harmonic 4), RFE 0.170 Hz/s (harmonic 4)
+
+## 10 %
+50 Hz, harmonic  2 at 10 %: TVE 7.96e-15  FE 5.68e-14 Hz  RFE 0.000 Hz/s
+50 Hz, harmonic  3 at 10 %: TVE 8.96e-15  FE 6.39e-14 Hz  RFE 0.000 Hz/s
+50 Hz, harmonic  4 at 10 %: TVE 7.37e-04  FE 5.88e-03 Hz  RFE 1.168 Hz/s  <- beyond P class
+50 Hz, harmonic  5 at 10 %: TVE 2.40e-04  FE 2.39e-03 Hz  RFE 0.386 Hz/s
+50 Hz, harmonic  6 at 10 %: TVE 1.03e-04  FE 1.17e-03 Hz  RFE 0.167 Hz/s
+50 Hz, harmonic  7 at 10 %: TVE 5.17e-05  FE 6.39e-04 Hz  RFE 0.085 Hz/s
+50 Hz, harmonic  8 at 10 %: TVE 2.89e-05  FE 3.75e-04 Hz  RFE 0.049 Hz/s
+50 Hz, harmonic  9 at 10 %: TVE 1.73e-05  FE 2.28e-04 Hz  RFE 0.030 Hz/s
+50 Hz, harmonic 10 at 10 %: TVE 1.08e-05  FE 1.40e-04 Hz  RFE 0.019 Hz/s
+50 Hz, harmonic 11 at 10 %: TVE 6.78e-06  FE 8.44e-05 Hz  RFE 0.013 Hz/s
+50 Hz, harmonic 12 at 10 %: TVE 4.22e-06  FE 4.90e-05 Hz  RFE 0.008 Hz/s
+50 Hz worst: TVE 7.37e-04, FE 5.88e-03 Hz (harmonic 4), RFE 1.168 Hz/s (harmonic 4)
+
+60 Hz, harmonic  2 at 10 %: TVE 3.85e-14  FE 3.48e-13 Hz  RFE 0.000 Hz/s
+60 Hz, harmonic  3 at 10 %: TVE 3.85e-14  FE 3.55e-13 Hz  RFE 0.000 Hz/s
+60 Hz, harmonic  4 at 10 %: TVE 7.41e-04  FE 7.07e-03 Hz  RFE 1.694 Hz/s  <- beyond P class
+60 Hz, harmonic  5 at 10 %: TVE 2.44e-04  FE 2.88e-03 Hz  RFE 0.569 Hz/s  <- beyond P class
+60 Hz, harmonic  6 at 10 %: TVE 1.06e-04  FE 1.41e-03 Hz  RFE 0.253 Hz/s
+60 Hz, harmonic  7 at 10 %: TVE 5.44e-05  FE 7.63e-04 Hz  RFE 0.134 Hz/s
+60 Hz, harmonic  8 at 10 %: TVE 3.09e-05  FE 4.33e-04 Hz  RFE 0.079 Hz/s
+60 Hz, harmonic  9 at 10 %: TVE 1.84e-05  FE 2.44e-04 Hz  RFE 0.050 Hz/s
+60 Hz, harmonic 10 at 10 %: TVE 1.09e-05  FE 1.31e-04 Hz  RFE 0.031 Hz/s
+60 Hz, harmonic 11 at 10 %: TVE 6.09e-06  FE 6.48e-05 Hz  RFE 0.018 Hz/s
+60 Hz, harmonic 12 at 10 %: TVE 3.04e-06  FE 2.81e-05 Hz  RFE 0.009 Hz/s
+60 Hz worst: TVE 7.41e-04, FE 7.07e-03 Hz (harmonic 4), RFE 1.694 Hz/s (harmonic 4)
+

@@ -1,0 +1,12 @@
+[Unit]
+Description=Bench recording for #193 (WMU raw inputs and PMU frames to /data/bench-193); remove after the session
+After=ozmv-pb2.service ozmv-pb2-acquisition.service
+ConditionPathExists=!/data/bench-193/STOP
+
+[Service]
+Type=simple
+ExecStart=/bin/sh /data/bench-193/recorder.sh
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

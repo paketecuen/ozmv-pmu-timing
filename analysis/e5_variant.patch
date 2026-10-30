@@ -1,0 +1,100 @@
+--- C37118Estimator.h	2026-10-14 23:23:42
++++ variant/C37118Estimator.h	2026-10-15 16:49:17
+@@ -136,6 +136,7 @@
+     double Coefficients[kColumns][7] = {};
+     double ResidualRms[7] = {};
+     double Peaks[7] = {};
++    double Gram[kColumns][kColumns] = {}, Rhs[kColumns][7] = {};
+   };
+   uint16_t pNominal;
+   int16_t pRate;
+@@ -338,7 +339,31 @@
+       for(unsigned j = 0; j < kColumns; ++j) value += inverse[i][j] * rhs[j][channel] / scale[j];
+       answer[i][channel] = value / scale[i];
+       if(!std::isfinite(answer[i][channel])) return false;
++    }
++    return true;
++  }
++
++  // VARIANT: the least-squares fit restricted to some columns, from the same weighted sums.
++  template <unsigned N> static bool SolveSub(const unsigned (&cols)[N], const Fit &fit, double (&answer)[N][7]) {
++    double a[N][N + 7], scale[N];
++    for(unsigned i = 0; i < N; ++i) scale[i] = std::sqrt(fit.Gram[cols[i]][cols[i]]);
++    for(unsigned i = 0; i < N; ++i) {
++      for(unsigned j = 0; j < N; ++j) a[i][j] = fit.Gram[cols[i]][cols[j]] / scale[i] / scale[j];
++      for(unsigned c = 0; c < 7; ++c) a[i][N + c] = fit.Rhs[cols[i]][c] / scale[i];
++    }
++    for(unsigned col = 0; col < N; ++col) {
++      unsigned p = col;
++      for(unsigned r = col + 1; r < N; ++r) if(std::abs(a[r][col]) > std::abs(a[p][col])) p = r;
++      if(std::abs(a[p][col]) < 1e-12) return false;
++      for(unsigned j = 0; j < N + 7; ++j) std::swap(a[col][j], a[p][j]);
++      const double d = a[col][col];
++      for(unsigned j = 0; j < N + 7; ++j) a[col][j] /= d;
++      for(unsigned r = 0; r < N; ++r) if(r != col) {
++        const double f = a[r][col];
++        for(unsigned j = 0; j < N + 7; ++j) a[r][j] -= f * a[col][j];
++      }
+     }
++    for(unsigned i = 0; i < N; ++i) for(unsigned c = 0; c < 7; ++c) answer[i][c] = a[i][N + c] / scale[i] * fit.Peaks[c];
+     return true;
+   }
+ 
+@@ -391,6 +416,8 @@
+     }
+     for(unsigned i = 0; i < kColumns; ++i)
+       for(unsigned j = 0; j < i; ++j) gram[j][i] = gram[i][j];
++    std::copy(&gram[0][0], &gram[0][0] + kColumns * kColumns, &fit.Gram[0][0]);
++    std::copy(&rhs[0][0], &rhs[0][0] + kColumns * 7, &fit.Rhs[0][0]);
+     if(!Solve(gram, rhs, fit.Coefficients)) { ++pStats.ConditioningFailures; return false; }
+     for(unsigned channel = 0; channel < 7; ++channel) {
+       double explained = 0;
+@@ -404,17 +431,26 @@
+ 
+   bool Reference(const Fit &fit, double carrier, double &frequency, double &rocof) {
+     const double rmsScale = 1 / std::sqrt(2.0);
+-    std::complex<double> x(fit.Coefficients[1][0] * rmsScale, -fit.Coefficients[2][0] * rmsScale);
++    auto coefficient = [&](unsigned re, unsigned im) {
++      std::complex<double> v(fit.Coefficients[re][0], -fit.Coefficients[im][0]);
++#if VARIANT == 3
++      if(pPrevious.VoltageChannels == 3) {
++        const std::complex<double> a = std::polar(1.0, 2 * kPi / 3);
++        v = (v + a * std::complex<double>(fit.Coefficients[re][1], -fit.Coefficients[im][1]) +
++             a * a * std::complex<double>(fit.Coefficients[re][2], -fit.Coefficients[im][2])) / 3.0;
++      }
++#endif
++      return v;
++    };
++    std::complex<double> x = coefficient(1, 2) * rmsScale;
+     double amplitude = std::abs(x);
+     if(!std::isfinite(amplitude) || amplitude <= std::max(1e-6, fit.Peaks[0] * 1e-9) ||
+        amplitude < 5 * fit.ResidualRms[0]) {
+       ++pStats.ReferenceFailures;
+       return false;
+     }
+-    std::complex<double> first(fit.Coefficients[3][0] * rmsScale * pNominal,
+-                               -fit.Coefficients[4][0] * rmsScale * pNominal);
+-    std::complex<double> second(fit.Coefficients[5][0] * rmsScale * 2 * pNominal * pNominal,
+-                                -fit.Coefficients[6][0] * rmsScale * 2 * pNominal * pNominal);
++    std::complex<double> first = coefficient(3, 4) * rmsScale * double(pNominal);
++    std::complex<double> second = coefficient(5, 6) * rmsScale * 2.0 * double(pNominal) * double(pNominal);
+     std::complex<double> ratio = first / x;
+     frequency = carrier + ratio.imag() / (2 * kPi);
+     rocof = (second / x - ratio * ratio).imag() / (2 * kPi);
+@@ -473,6 +509,16 @@
+     uint64_t phaseUs = ((reportUs % 1000000ULL) * pNominal) % 1000000ULL;
+     // Decimated, the fundamental passed the filter with its gain at this frequency.
+     const double gain = pFactor > 1 ? pDecimator.Gain(frequency) : 1;
++#if VARIANT == 1 || VARIANT == 3
++    static const unsigned cols[] = {0, 1, 2, 3, 4, 7, 8, 9, 10};
++#elif VARIANT == 2
++    static const unsigned cols[] = {0, 1, 2, 7, 8, 9, 10};
++#endif
++#if VARIANT
++    double sub[sizeof(cols) / sizeof(cols[0])][7];
++    if(!SolveSub(cols, finalFit, sub)) return false;
++    for(unsigned channel = 0; channel < 7; ++channel) { finalFit.Coefficients[1][channel] = sub[1][channel]; finalFit.Coefficients[2][channel] = sub[2][channel]; }
++#endif
+     std::complex<double> rotation = std::polar(1 / std::sqrt(2.0) / gain, -2 * kPi * phaseUs / 1000000.0);
+     for(unsigned channel = 0; channel < 7; ++channel) {
+       std::complex<double> local(finalFit.Coefficients[1][channel], -finalFit.Coefficients[2][channel]);

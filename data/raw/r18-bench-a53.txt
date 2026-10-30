@@ -1,0 +1,8 @@
+0.99 0.73 0.36 3/166 1072
+decimator alone (3 channels, 16:1, 259 taps)      25.00 ms per 2 s =  1.25 % of a core
+estimator, decimated (as published)               74.37 ms per 2 s =  3.72 % of a core
+estimator, direct (release 17)                   408.51 ms per 2 s = 20.43 % of a core
+estimator, direct at 1969 S/s (its fits alone)    35.64 ms per 2 s =  1.78 % of a core
+queue only (push 1024, take 128)                  18.69 ms per 2 s =  0.93 % of a core
+queue + Phasor + decimated estimator              91.49 ms per 2 s =  4.57 % of a core
+entry 136 B, sample 128 B, point 72 B, queue ring 1088 KiB

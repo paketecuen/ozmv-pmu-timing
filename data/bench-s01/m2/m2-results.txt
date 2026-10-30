@@ -1,0 +1,84 @@
+== m2-A-VA (lag 49327.0 ns)
+{
+ "pass": "m2-A-VA",
+ "lag_ns": 49327.00000000001,
+ "bursts": 60,
+ "bursts_with_board": 60,
+ "windows": 2895,
+ "board_delay_ns": 72158.86285118222,
+ "board_delay_u_ns_windows": 3.2040727665890727,
+ "board_delay_u_ns_bursts": 11.19106655266163,
+ "median_ns": 72171.64876081768,
+ "per_window_rms_ns": 172.36601218822665,
+ "burst_mean_spread_ns": 86.6856287695147,
+ "edges_in_gap_dropped": 8,
+ "timebase_resid_rms_ns": 57.13146815559426,
+ "pc_clock_minus_pps_ms_range": [
+  -61.6349398658258,
+  -1.4865692021430732
+ ],
+ "epoch": 1793091161
+}
+== m2-A-VA-r02 (lag 49327.0 ns)
+{
+ "pass": "m2-A-VA-r02",
+ "lag_ns": 49327.00000000001,
+ "bursts": 60,
+ "bursts_with_board": 58,
+ "windows": 2768,
+ "board_delay_ns": 72174.4232916901,
+ "board_delay_u_ns_windows": 1.2860067731376346,
+ "board_delay_u_ns_bursts": 12.931572476241413,
+ "median_ns": 72176.98490793507,
+ "per_window_rms_ns": 67.6468900591749,
+ "burst_mean_spread_ns": 98.4839218810893,
+ "edges_in_gap_dropped": 0,
+ "timebase_resid_rms_ns": 58.63122991833105,
+ "pc_clock_minus_pps_ms_range": [
+  -9.456352330744267,
+  5.086181747401497
+ ],
+ "epoch": 1793091161
+}
+== m2-A-VA-ape (lag 325.8 ns)
+{
+ "pass": "m2-A-VA-ape",
+ "lag_ns": 325.8,
+ "bursts": 60,
+ "bursts_with_board": 60,
+ "windows": 2940,
+ "board_delay_ns": 72225.22142048043,
+ "board_delay_u_ns_windows": 0.8667684071208152,
+ "board_delay_u_ns_bursts": 4.901497343543993,
+ "median_ns": 72228.82973533093,
+ "per_window_rms_ns": 46.989720992805616,
+ "burst_mean_spread_ns": 37.96683516605156,
+ "edges_in_gap_dropped": 0,
+ "timebase_resid_rms_ns": 58.26812208712099,
+ "pc_clock_minus_pps_ms_range": [
+  -10.871944503946906,
+  22.56296889652276
+ ],
+ "epoch": 1793099576
+}
+== m2-B-VA-ape (lag 325.8 ns)
+{
+ "pass": "m2-B-VA-ape",
+ "lag_ns": 325.8,
+ "bursts": 60,
+ "bursts_with_board": 60,
+ "windows": 2882,
+ "board_delay_ns": 72712.62054025152,
+ "board_delay_u_ns_windows": 1.7522601906921413,
+ "board_delay_u_ns_bursts": 7.951207026737769,
+ "median_ns": 72719.31886817967,
+ "per_window_rms_ns": 94.05247391920707,
+ "burst_mean_spread_ns": 61.589784793605546,
+ "edges_in_gap_dropped": 4,
+ "timebase_resid_rms_ns": 56.935169477866665,
+ "pc_clock_minus_pps_ms_range": [
+  -7.421897180165615,
+  98.62124998630861
+ ],
+ "epoch": 1793099994
+}

@@ -1,0 +1,13 @@
+__pycache__/
+analysis/build/
+analysis/e3
+analysis/e5
+analysis/e7
+figures/preview/
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+.DS_Store

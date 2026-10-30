@@ -1,0 +1,20 @@
+== Before: pb2-pmu-wmu-20261014-1 (sequence 17), 2026-10-14, 30 s each, service threads in % of one core
+== 19:47:27 PMU off
+  total                          40.3 %
+  388:DevicePB2                  36.1 %
+  376:IdleWorker                  1.0 %
+  410:IdleWorker                  0.8 %
+  406:IdleWorker                  0.7 %
+  449:IdleWorker                  0.6 %
+  407:IdleWorker                  0.6 %
+  374:HTTPSetupLink               0.1 %
+== 19:48:06 PMU on (127.0.0.1:4713, 50 fps)
+  total                          68.7 %
+  388:DevicePB2                  39.4 %
+  4390:C37118Publisher           25.1 %
+  407:IdleWorker                  1.1 %
+  449:IdleWorker                  0.9 %
+  406:IdleWorker                  0.8 %
+  410:IdleWorker                  0.6 %
+  376:IdleWorker                  0.3 %
+"DroppedSamples":0 "EstimatorResets":1 "PublishedFrames":1929 "RejectedWindows":0

@@ -1,0 +1,15 @@
+P class at f0 = 50 Hz, Fs = 50 frames/s; noise 60 dB below RMS; time jitter 0 ns RMS
+
+Frequency f0 +-2 Hz (0.25 Hz steps)      TVE 1.56e-04 phase, 1.02e-04 PS (  1.6% of 1%)  FE 1.06e-03 Hz ( 21.3% of 0.005)  RFE 2.54e-01 Hz/s ( 63.6% of 0.4)  PASS
+Magnitude 80-120 %                       TVE 1.77e-04 phase, 1.23e-04 PS (  1.8% of 1%)  FE 0.00e+00 Hz (  0.0% of 1)  RFE 0.00e+00 Hz/s (  0.0% of 1e+09)  PASS
+Harmonics 1 %, 2nd-50th                  TVE 1.85e-04 phase, 1.41e-04 PS (  1.9% of 1%)  FE 1.72e-03 Hz ( 34.4% of 0.005)  RFE 1.98e-01 Hz/s ( 49.6% of 0.4)  PASS
+Amplitude modulation kx 0.1, 0.1-2 Hz    TVE 2.05e-04 phase, 1.32e-04 PS (  0.7% of 3%)  FE 9.42e-04 Hz (  1.6% of 0.06)  RFE 2.58e-01 Hz/s ( 11.4% of 2.26195)  PASS
+Phase modulation ka 0.1 rad, 0.1-2 Hz    TVE 1.85e-04 phase, 1.19e-04 PS (  0.6% of 3%)  FE 1.50e-03 Hz (  2.5% of 0.06)  RFE 2.43e-01 Hz/s ( 10.7% of 2.26195)  PASS
+Frequency ramp +1 Hz/s                   TVE 1.61e-04 phase, 9.91e-05 PS (  1.6% of 1%)  FE 9.61e-04 Hz (  9.6% of 0.01)  RFE 2.17e-01 Hz/s ( 54.1% of 0.4)  PASS
+Frequency ramp -1 Hz/s                   TVE 1.70e-04 phase, 9.83e-05 PS (  1.7% of 1%)  FE 7.70e-04 Hz (  7.7% of 0.01)  RFE 2.13e-01 Hz/s ( 53.2% of 0.4)  PASS
+Step magnitude +10 %                     response 20.4 ms (<= 40.0), delay 1.36 ms (<= 5.0), over/undershoot 9.7 % (B; PS 7.3 %) [pre +0.0/-9.7, post +9.7/-0.0] (<= 5), FE resp 30.8 ms (<= 90.0), RFE resp 37.7 ms (<= 120.0)  FAIL
+Step magnitude -10 %                     response 21.0 ms (<= 40.0), delay 1.35 ms (<= 5.0), over/undershoot 9.9 % (C; PS 7.3 %) [pre +0.0/-9.9, post +9.9/-0.0] (<= 5), FE resp 31.2 ms (<= 90.0), RFE resp 37.6 ms (<= 120.0)  FAIL
+Step phase +10 deg                       response 32.1 ms (<= 40.0), delay 1.21 ms (<= 5.0), over/undershoot 10.3 % (C; PS 7.2 %) [pre +0.0/-10.3, post +10.0/-0.0] (<= 5), FE resp 37.3 ms (<= 90.0), RFE resp 39.6 ms (<= 120.0)  FAIL
+Step phase -10 deg                       response 32.3 ms (<= 40.0), delay 1.25 ms (<= 5.0), over/undershoot 11.1 % (C; PS 7.5 %) [pre +0.0/-11.1, post +11.0/-0.0] (<= 5), FE resp 37.3 ms (<= 90.0), RFE resp 39.6 ms (<= 120.0)  FAIL
+
+FAIL: 4 test groups outside the P-class limits

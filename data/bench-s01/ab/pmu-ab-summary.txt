@@ -1,0 +1,3 @@
+A: 859285 frames, 0 duplicates, 3010 steps != 20 ms (20887 frames missing), locked 95.4 %
+B: 867258 frames, 0 duplicates, 1204 steps != 20 ms (9792 frames missing), locked 97.4 %
+pairs both locked with the mains: 793382; B minus A 586.5 ns mean, median 600.9, RMS 210.2, p2.5..97.5 254.1..1008.3, max |dev| 770; |V| B/A 0.99971; dF RMS 1.01e-04 Hz (max 5.23e-04); dROCOF RMS 0.0229 Hz/s (max 0.114)

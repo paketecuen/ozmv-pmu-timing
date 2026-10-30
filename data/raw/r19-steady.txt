@@ -1,0 +1,11 @@
+22:52:57 over 120 s: openZmeter 4036/100 % of a core (4844 ticks), broker 470/100 % (564 ticks)
+
+669 rows, 22:19:31..22:52:55, V 234.64..236.14
+largest gap between consecutive rows: 3.0027050000000000 s
+== journal priority err and above this boot
+2026-09-10T19:15:05+00:00 ozmv-pb2-experimental kernel: remoteproc remoteproc0: request_firmware failed: -2
+== memory
+openZmeter VmRSS:	 21764 kB
+ozmv-pb2-acquisition VmRSS:	 2964 kB
+"Slot":"A"
+"Trial":false

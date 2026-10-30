@@ -1,0 +1,27 @@
+== 20:50:14 PMU off, 60 s (service threads, % of one core)
+  total                          38.9 %
+  386:DevicePB2                  34.6 %
+  404:IdleWorker                  1.1 %
+  405:IdleWorker                  1.0 %
+  567:IdleWorker                  0.8 %
+  469:IdleWorker                  0.6 %
+  374:IdleWorker                  0.4 %
+  377:PB2Clock                    0.1 %
+== 20:51:14 enable
+HTTP 200
+== 20:51:22 PMU on, 60 s
+  total                          49.9 %
+  386:DevicePB2                  37.5 %
+  723:C37118Publisher             8.1 %
+  567:IdleWorker                  1.1 %
+  405:IdleWorker                  0.8 %
+  404:IdleWorker                  0.8 %
+  469:IdleWorker                  0.6 %
+  374:IdleWorker                  0.6 %
+== 20:52:23 capture 200 frames (at most 8 s)
+28024 bytes
+== 20:52:31 status
+{"AcceptedSamples":2414688,"CadenceDiscontinuities":0,"CarrierFailures":0,"ConditioningFailures":0,"DataRate":50,"Decimation":{"Factor":16,"FilterLatencyMs":4.094976,"FilterTaps":259,"PointRateHz":1968.876008064516},"DroppedSamples":0,"Enabled":true,"EstimatorResets":1,"InvalidSamples":0,"LastReportTimestampUs":1792011151520000,"MeasurementQualified":false,"NominalFrequency":50,"PublishedFrames":3830,"QueueOverflows":0,"QueuedSamples":0,"ReferenceFailures":0,"RejectedWindows":0,"SendErrors":0,"SequenceDiscontinuities":0,"Source":"PB2_1P_NOMINAL","TimeQuality":{"Locked":true,"MaximumErrorNs":82,"MessageTimeQuality":0,"PmuTimeQuality":1,"SyncBit":0,"UnlockedDurationUs":null,"UtcTraceable":true},"TimestampBasis":"The source's sample times: on the PB2 the GPS input time (ADC filter delay subtracted, analogue delay not calibrated); data stays in test mode until the measurement is qualified","TimestampDiscontinuities":0,"TimingQualified":false,"WindowBufferHighWater":82}
+== 20:52:31 disable
+HTTP 200
+{"Analyzers":[],"DataRate":50,"DestIP":"127.0.0.1","Enabled":false,"IDCODE":1,"NominalFrequency":50,"PhasorFormat":"float_rect","Port":4713}

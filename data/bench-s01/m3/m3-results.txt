@@ -1,0 +1,8 @@
+m3-10V-antes            range 10/10 trig ACO :   53 edges,   7 dropped, shift [1], lag   49124.5 ns +/-  21.0, per edge   153 ns RMS, burst means spread   227 ns
+m3-1000V-antes          range 1000/10 trig ACO :   57 edges,   3 dropped, shift [1], lag   49329.8 ns +/-  32.2, per edge   243 ns RMS, burst means spread   193 ns
+m3-10V-antes-r02        range 10/10 trig ACO :   59 edges,   3 dropped, shift [1], lag   49183.1 ns +/-  14.7, per edge   113 ns RMS, burst means spread    58 ns
+m3-1000V-antes-r02      range 1000/10 trig ACO :   54 edges,   5 dropped, shift [1], lag   49322.2 ns +/-  42.4, per edge   312 ns RMS, burst means spread   396 ns
+m3-10V-ape              range 10/10 trig APE :   58 edges,   1 dropped, shift [0], lag     124.1 ns +/-  12.9, per edge    98 ns RMS, burst means spread    34 ns
+m3-1000V-ape            range 1000/10 trig APE :   52 edges,   8 dropped, shift [0], lag     315.4 ns +/-  38.2, per edge   275 ns RMS, burst means spread   256 ns
+m3-10V-despues-ape      range 10/10 trig APE :   57 edges,   3 dropped, shift [0], lag     112.3 ns +/-  13.3, per edge   100 ns RMS, burst means spread    24 ns
+m3-1000V-despues-ape    range 1000/10 trig APE :  552 edges,  45 dropped, shift [0], lag     326.4 ns +/-   8.9, per edge   210 ns RMS, burst means spread   140 ns

@@ -1,0 +1,1 @@
+WMU 1-s windows with the mains on both: 15765; B minus A 584.8 ns mean, median 600.6, RMS 208.8, p2.5..97.5 260.6..1002.8; RMS ratio B/A 0.99971; second-to-second noise (2nd difference / sqrt 6) 21.7 ns

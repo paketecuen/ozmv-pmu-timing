@@ -1,0 +1,16 @@
+{
+  "edges": 1770,
+  "samples_on_steps": 17843,
+  "step_adc_units": 86131173.45185186,
+  "noise_adc_units": 32320.798679218104,
+  "delay_offset_ns": 11810.984891969587,
+  "delay_offset_u_ns": 6.01465223132787,
+  "delay_offset_fit_u_ns": 2.2902758357557067,
+  "delay_offset_jackknife_u_ns": 6.01465223132787,
+  "rc_us": 32.68040094692452,
+  "rc_u_us": 0.0027256132832507167,
+  "centroid_ns": 44343.35578346648,
+  "residual_rms_of_step": 0.0009004588474041692,
+  "computed_D_ns": 47244.0,
+  "reading": "D about 44 t_MOD longer (234.5 t_MOD)"
+}
