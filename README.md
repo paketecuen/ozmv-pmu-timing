@@ -41,11 +41,11 @@ second instrument confirmed through losses of up to 11 minutes.
 | Sec. III-B, the channel's delay (Table I) | S-I | `data/bench-s01/m2/`, `m3/` | `analysis/s01_m2.py`, `s01_m3.py`, `m2_fluke_phase.py` |
 | Sec. III-B, two instruments on one signal | S-III | `data/bench-s01/ab/`, `data/bench-s02/ab/` | `analysis/s01_ab_wmu.py`, `s01_ab_pmu.py` |
 | Sec. IV-B/C, dual-order fit and P-class tests (Fig. 3, Table II) | S-V | `data/e5/`, `data/e7/` | `analysis/e5_pclass.cpp`, `e5_factorial.sh`, `e7_channel_snr.cpp`, `phasor_filters.py` |
-| Sec. IV-D, the time-stamping method on real data | S-IV (Fig. S2) | `data/e3/` | `analysis/e3_dating_strategies.cpp` |
+| Sec. IV-D, the time-stamping method on real data (Fig. 4) | S-IV | `data/e3/` | `analysis/e3_dating_strategies.cpp` |
 | Sec. V-A, the drift allowance | S-VI | `data/gps-sky-20261015/` | `analysis/crystal_drift.py` |
-| Sec. V-B, one hour of holdover | S-VI (Fig. S3) | `data/holdover-r23/` | `figures/src/fig_holdover.py` |
-| Sec. V-B, losses of 1, 5 and 10 min (Fig. 4) | S-VI (Table S-VI) | `data/bench-s02/e4/` | `analysis/s02_e4.py`, `s02_e4_status.py` |
-| Sec. V-C, the start-up window | S-VII (Fig. S4) | `data/boot-*.csv` | `figures/src/fig_startup.py` |
+| Sec. V-B, one hour of holdover | S-VI (Fig. S2) | `data/holdover-r23/` | `figures/src/fig_holdover.py` |
+| Sec. V-B, losses of 1, 5 and 10 min (Fig. 5) | S-VI (Table S-VI) | `data/bench-s02/e4/` | `analysis/s02_e4.py`, `s02_e4_status.py` |
+| Sec. V-C, the start-up window | S-VII (Fig. S3) | `data/boot-*.csv` | `figures/src/fig_startup.py` |
 
 ## Reproducing
 

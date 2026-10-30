@@ -47,7 +47,7 @@ def band(values, width_s=0.25, low=5, high=95):
 
 
 apply()
-fig, (ax_t, ax_v) = plt.subplots(2, 1, figsize=(COLUMN, 3.15), sharex=True)
+fig, (ax_t, ax_v) = plt.subplots(2, 1, figsize=(COLUMN, 2.25), sharex=True)
 for k, label, color, style, width in STRATEGIES:
     if k == 4:  # Polling jitter: its 5-95 % band, not 20 000 noisy points
         centre, lo, hi = band(errors[k])
