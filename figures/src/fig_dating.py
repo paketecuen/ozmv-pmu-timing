@@ -47,7 +47,7 @@ def band(values, width_s=0.25, low=5, high=95):
 
 
 apply()
-fig, (ax_t, ax_v) = plt.subplots(2, 1, figsize=(COLUMN, 2.25), sharex=True)
+fig, (ax_t, ax_v) = plt.subplots(2, 1, figsize=(COLUMN, 3.0), sharex=True)
 for k, label, color, style, width in STRATEGIES:
     if k == 4:  # Polling jitter: its 5-95 % band, not 20 000 noisy points
         centre, lo, hi = band(errors[k])
@@ -86,5 +86,5 @@ labels = [label for _, label, *_ in STRATEGIES] + [r"Uncertainty of the referenc
 fig.legend(handles, labels, loc="upper center", ncol=1, bbox_to_anchor=(0.55, 1.0),
            handlelength=2.6, labelspacing=0.3, borderaxespad=0.1)
 fig.align_ylabels((ax_t, ax_v))
-fig.tight_layout(h_pad=0.4, rect=(0, 0, 1, 0.765))
+fig.tight_layout(h_pad=0.4, rect=(0, 0, 1, 0.73))
 save(fig, "dating")
