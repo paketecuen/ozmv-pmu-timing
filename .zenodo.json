@@ -3,9 +3,38 @@
   "upload_type": "software",
   "description": "Supplementary material (sections S-I to S-VII), the data behind every figure and table, and the analysis programs of the manuscript submitted to IEEE Transactions on Instrumentation and Measurement (2026). The manuscript treats the UTC time of each sample of a free-running delta-sigma converter as a measurand, evaluates its uncertainty in service, measures the converter's and the channel's delays against the GNSS pulse and a PPS-triggered reference digitizer, and validates the holdover through losses of the signal against a second instrument.",
   "creators": [
-    {"name": "Montoya, Francisco G.", "affiliation": "Universidad de Almería"}
+    {
+      "name": "Montoya, Francisco G.",
+      "affiliation": "Universidad de Almería",
+      "orcid": "0000-0003-4105-565X"
+    },
+    {
+      "name": "Alcayde, Alfredo",
+      "affiliation": "Universidad de Almería"
+    },
+    {
+      "name": "Manzano-Agugliaro, Francisco",
+      "affiliation": "Universidad de Almería"
+    },
+    {
+      "name": "Andres-Asensio, Miguel A.",
+      "affiliation": "Universidad de Almería"
+    },
+    {
+      "name": "Arrabal-Campos, Francisco M.",
+      "affiliation": "Universidad de Almería"
+    }
   ],
-  "keywords": ["time synchronization", "time stamping", "delta-sigma converters", "measurement uncertainty", "phasor measurement units", "synchrophasors", "GNSS holdover", "open-source instrumentation"],
+  "keywords": [
+    "time synchronization",
+    "time stamping",
+    "delta-sigma converters",
+    "measurement uncertainty",
+    "phasor measurement units",
+    "synchrophasors",
+    "GNSS holdover",
+    "open-source instrumentation"
+  ],
   "license": "GPL-3.0-or-later",
   "access_right": "open"
 }

@@ -2,7 +2,8 @@
 
 Supplementary material, data and analysis programs for the manuscript
 
-> F. G. Montoya *et al.*, "ozmV: Per-Sample UTC Time With Declared Uncertainty in an
+> F. G. Montoya, A. Alcayde, F. Manzano-Agugliaro, M. A. Andres-Asensio and
+> F. M. Arrabal-Campos, "ozmV: Per-Sample UTC Time With Declared Uncertainty in an
 > Open Synchrophasor and Waveform Instrument," submitted to *IEEE Transactions on
 > Instrumentation and Measurement*, 2026.
 
