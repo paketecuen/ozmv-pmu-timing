@@ -17,7 +17,7 @@ STRATEGIES = (
     (1, r"First sample, then the nominal period", PALETTE["vermillion"], "-", 1.1),
     (2, r"Re-aligned at each PPS, nominal period", PALETTE["orange"], "-", 0.9),
     (3, r"Re-aligned at each PPS, period of the previous second", PALETTE["purple"], "-", 0.6),
-    (4, r"Polled ready edge, without the envelope regression", PALETTE["sky"], "-", 0.5),
+    (4, r"Polled DRDY edge, without the envelope regression", PALETTE["sky"], "-", 0.5),
 )
 
 with open(DATA / "e3-time-errors.csv") as f:

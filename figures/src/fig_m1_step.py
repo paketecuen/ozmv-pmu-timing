@@ -34,11 +34,11 @@ for board, name in RECORDINGS.items():
     tau, y = d[:, 0] * 1e-9, d[:, 1]
     offset, rc = s["delay_offset_ns"] * 1e-9, s["rc_us"] * 1e-6
     fit = response(tau - offset, T_MOD_NOM, rc)
-    ax.plot(tau * 1e6, y, lw=0.9, zorder=3, label=f"Converter {board} ({s['edges']} edges)", **STYLE[board])
+    ax.plot(tau * 1e6, y, lw=0.9, zorder=3, label=f"ADC {board} ({s['edges']} edges)", **STYLE[board])
     n = (y.size // 40) * 40                                   # the 50-ns bins averaged into 2-us bins
     r = (y - fit)[:n].reshape(-1, 40).mean(axis=1) * 1e3
     t_r = tau[:n].reshape(-1, 40).mean(axis=1) * 1e6
-    bx.plot(t_r, r, lw=0.8, zorder=3, label=f"Converter {board}", **STYLE[board])
+    bx.plot(t_r, r, lw=0.8, zorder=3, label=f"ADC {board}", **STYLE[board])
     if board == "A":
         model = response(grid - offset, T_MOD_NOM, rc)
         none = response(grid, T_MOD_NOM, rc)
@@ -52,11 +52,11 @@ for board, name in RECORDINGS.items():
                 color=PALETTE["blue"], ha="center", va="bottom")
 for a in (ax, bx):
     a.set_xlim(-60, 160)
-    a.set_xlabel(r"Sample time, from the pulse's UTC second (\si{\micro\second})")
+    a.set_xlabel(r"Sample time from the UTC second of the pulse (\si{\micro\second})")
 ax.set_ylim(-0.04, 1.06)
 ax.set_ylabel("Normalized step")
 handles, labels = ax.get_legend_handles_labels()
-order = [i for i, l in enumerate(labels) if l.startswith("Converter")] + [i for i, l in enumerate(labels) if not l.startswith("Converter")]
+order = [i for i, l in enumerate(labels) if l.startswith("ADC")] + [i for i, l in enumerate(labels) if not l.startswith("ADC")]
 fig.legend([handles[i] for i in order], [labels[i] for i in order], loc="upper center", ncol=1,
            bbox_to_anchor=(0.55, 1.0), handlelength=2.6, labelspacing=0.3, borderaxespad=0.1)
 fig.tight_layout(rect=(0, 0, 1, 0.8))
