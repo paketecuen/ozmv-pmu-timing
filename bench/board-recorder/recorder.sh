@@ -6,7 +6,7 @@
 # - one status line a minute in recorder.log (time basis, satellites, frames, dropped samples).
 # It stops after HOURS hours from its start, when the folder passes LIMIT_GB, or when a file STOP appears,
 # and then puts the PMU and the WMU back to their defaults. No secret is read or printed: the API helper
-# logs in on the board itself. Installed by Claude for Paco on 2026-10-16; remove after the session.
+# logs in on the board itself. Installed on the board on 2026-10-16; remove after the session.
 set -u
 dir=/data/bench-193; api="sh $dir/ozmv-api.sh"; log=$dir/recorder.log   # /data is mounted noexec
 HOURS=${HOURS:-10}; LIMIT_GB=${LIMIT_GB:-30}; CHUNK_S=${CHUNK_S:-1800}
